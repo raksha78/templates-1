@@ -29,3 +29,6 @@ pipelines:
         execution:
           onExecute:
             - printenv {{ Values.foo.zoo }}
+
+
+
