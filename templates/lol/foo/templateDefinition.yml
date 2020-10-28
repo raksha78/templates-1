@@ -1,4 +1,4 @@
-pipelines1:
+pipelines
   - name: basic
     steps:
       - name: basic1
