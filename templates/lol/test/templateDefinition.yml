@@ -9,16 +9,16 @@ pipelines:
         execution:
           onExecute:
             - printenv {{ .Values.foo.bar }}
-      - name: basic2
-        type: Bash
-        configuration:
-          runtime:
-            type: host
-          inputSteps:
-            - name: basic1
-        execution:
-          onExecute:
-            - printenv {{ .Values.foo.baz }}
+#       - name: basic2
+#         type: Bash
+#         configuration:
+#           runtime:
+#             type: host
+#           inputSteps:
+#             - name: basic1
+#         execution:
+#           onExecute:
+#             - printenv {{ .Values.foo.baz }}
 #       - name: basic3
 #         type: Bash
 #         configuration:
