@@ -1,5 +1,4 @@
 pipelines:
-test
   - name: basic
     steps:
       - name: basic1
