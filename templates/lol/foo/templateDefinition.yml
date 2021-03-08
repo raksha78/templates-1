@@ -18,7 +18,7 @@ pipelines:
             - name: basic1
         execution:
           onExecute:
-            - printenv {{ .Values.foo.baz }}
+            - echo {{ .Values.foo.baz }}
       - name: basic3
         type: Bash
         configuration:
@@ -28,7 +28,7 @@ pipelines:
             - name: basic2
         execution:
           onExecute:
-            - printenv {{ .Values.foo.zoo }}
+            - echo {{ .Values.foo.zoo }}
 
 
 
