@@ -1,5 +1,5 @@
 pipelines:
-  - name: basic
+  - name: basicq
     steps:
       - name: basic1
         type: Bash
