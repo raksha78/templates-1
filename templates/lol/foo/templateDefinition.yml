@@ -2,7 +2,7 @@ pipelines:
   - name: basic
     steps:
       - name: basic1
-        type: Bash123
+        type: Bash
         configuration:
           runtime:
             type: host
