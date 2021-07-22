@@ -25,7 +25,7 @@ pipelines:
           runtime:
             type: host
           inputSteps:
-            - name: basic2
+            - name: 
         execution:
           onExecute:
             - printenv {{ .Values.foo.zoo }}
